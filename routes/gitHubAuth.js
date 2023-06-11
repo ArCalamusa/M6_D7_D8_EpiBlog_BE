@@ -57,6 +57,7 @@ router.get('/success', (req, res) => {
         email,
         user
     }).redirect('http://localhost:3000/home')
+    //da approfondire https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps
 })
 
 export default router
